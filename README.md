@@ -16,7 +16,7 @@ GLA_Fullstack/
     ├── login_page.html      # Login page UI
     └── style.css            # Shared stylesheet for styling pages
 
-# 📝 Project Descriptions
+## 📝 Project Descriptions
 
 chess_maker/
 Contains files for building a chessboard-like UI with HTML tables/divs and CSS styling.
