@@ -15,3 +15,20 @@ GLA_Fullstack/
     ├── journal_page.html    # Journal page design
     ├── login_page.html      # Login page UI
     └── style.css            # Shared stylesheet for styling pages
+
+📝 Project Descriptions
+
+chess_maker/
+Contains files for building a chessboard-like UI with HTML tables/divs and CSS styling.
+
+index3.html
+A sample landing page with basic layout and CSS integration.
+
+journal_page.html
+A simple webpage design for a personal journal or notes application.
+
+login_page.html
+A login form design with styled input fields and buttons.
+
+style.css
+Central stylesheet that provides design consistency across HTML pages.
