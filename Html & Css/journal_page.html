@@ -2,29 +2,125 @@
 <html>
 <head>
   <title>Journal App</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #ecff6d;
+      min-height: 100vh;
+      padding: 2rem 0;
+    }
+    .container {
+      background: #fff;
+      max-width: 600px;
+      margin: 40px auto;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      padding: 2rem 2.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .logo {
+      background: #eca2ca;
+      color: #3c037d;
+      font-size: 2rem;
+      font-weight: bold;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+    .nav {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    .nav a {
+      color: #3c037d;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1rem;
+      transition: color 0.2s;
+    }
+    .nav a:hover {
+      color: #eca2ca;
+    }
+    .main-section {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .main-section h2 {
+      color: #3c037d;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .main-section p {
+      color: #555;
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+    .main-buttons {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    .main-buttons a {
+      background: #eca2ca;
+      color: #fff;
+      padding: 0.7rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+    .main-buttons a:hover {
+      background: #3c037d;
+    }
+    .features-section {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .features-section h3 {
+      color: #3c037d;
+      margin-bottom: 0.7rem;
+    }
+    .features-section p {
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-  
-  <h3>Logo</h3>
-
-
-  <ul>
-    <li><a href="#">Login</a></li>
-    <li><a href="#">Register</a></li>
-  </ul>
-
-  
-  <h4>MAIN SECTION</h4>
-  <h2>Mindful living for the<br>digital world 📱</h2>
-  <p>The ultimate bullet journal app to document, reflect, and embrace your personal journey</p>
-
-  <ul>
-    <li><a href="#">Get Started</a></li>
-    <li><a href="#">Learn More</a></li>
-  </ul>
-
-  <h4>FEATURES SECTION</h4>
-  <h3>A simple and easy to use journal app</h3>
-  <p>Start your journey today.</p>
+  <div class="container">
+    <div class="logo">Logo</div>
+    <nav class="nav">
+      <a href="#">Login</a>
+      <a href="#">Register</a>
+    </nav>
+    <div class="main-section">
+      <h4>MAIN SECTION</h4>
+      <h2>Mindful living for the<br>digital world 📱</h2>
+      <p>The ultimate bullet journal app to document, reflect, and embrace your personal journey</p>
+      <div class="main-buttons">
+        <a href="#">Get Started</a>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+    <div class="features-section">
+      <h4>FEATURES SECTION</h4>
+      <h3>A simple and easy to use journal app</h3>
+      <p>Start your journey today.</p>
+    </div>
+  </div>
 </body>
 </html>
